@@ -1,12 +1,17 @@
 import { useState } from 'react'
-import glgLogo from './assets/logo-white.svg'
-import './App.css'
+import glgLogo from '../assets/logo-white.svg';
+import '../App.css'
+
+import { Link } from "react-router-dom";
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div className="App">
+      <nav>
+        <Link to="/about">about</Link>
+      </nav>
       <div>
         <a href="https://reactjs.org" target="_blank">
           <img src={glgLogo} className="logo react" alt="React logo" />
