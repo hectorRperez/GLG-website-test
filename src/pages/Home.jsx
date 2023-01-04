@@ -17,7 +17,7 @@ function App() {
           <img src={glgLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Aquí estaŕa la web de GLG</h1>
+      <h1>Aquí estaŕa la web de GLG (esto es una prueba de github actions)</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
